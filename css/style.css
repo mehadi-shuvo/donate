@@ -2,3 +2,50 @@
     margin: 0;
     padding: 0;
 }
+
+header .banner{
+    background-image: url(../images/donation0.jpg) ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+header .banner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.2), rgb(0, 0, 0));
+    z-index: -1;
+}
+ header .banner .titel{
+    font-size: 40px;
+    margin-top: 16%;
+
+ }
+ header .banner .description{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+ }
+
+ .primary{
+    background-color: #06ca68;
+    font-size: 22px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+ }
