@@ -180,3 +180,49 @@ header .banner::before{
     font-weight: 400;
     color: #7a7a7a;
  }
+
+ /* blogs */
+
+ .blogSection{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .blogSection .blog{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .blogSection .blog .blogText{
+    width: 49%;
+    padding-right: 28px;
+    margin: 35px;
+    
+ }
+ .blogSection .blog .blogText h4{
+    font-size: 30px;
+    font-weight: 700;
+    flood-color: #222;
+ }
+ .blogSection .blog .blogText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .blogSection .blog .blogText .primary{
+    font-size: 18px;
+ }
+
+ .blogSection .blog .blogImg{
+    width: 49%;
+ }
+
+ .blogSection .blog .blogImg img{
+    width: 100%;
+ }
