@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* banner css */
 
 header .banner{
     background-image: url(../images/donation0.jpg) ;
@@ -44,8 +47,79 @@ header .banner::before{
  .primary{
     background-color: #06ca68;
     font-size: 22px;
+    font-weight: 400;
     padding: 10px 20px;
     border: none;
     border-radius: 7px;
     cursor: pointer;
+ }
+
+ /* ===donate===== */
+
+ .donate{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+ }
+ .donate-container{
+    text-align: center;
+ }
+
+ .donate-container h3{
+    font-size: 36px;
+    color: #222;
+    font-weight: 700;
+ }
+ .donate-container p{
+    font-size: 18px;
+    color: #7a7a7a;
+    font-weight: 400;
+    margin-top: 20px;
+ }
+ .donate-container .amounts{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+
+ }
+ .donate-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .donate-container .amounts .amount{
+    list-style: none;
+    color: #7a7a7a;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 40px 26px;
+    margin-right: 10px ;
+ }
+
+ .donate-container .amounts .active{
+    background-color: #06ca68a1;
+    border: 3px solid #06ca68;
+ }
+
+ .donate-container input{
+    display: block;
+    width: 40vw;
+    border: none;
+    border-bottom: 1px solid #7a7a7a; 
+    margin: 30px;
+    padding: 0 auto;
+ }
+
+ .donate-container input::placeholder{
+    text-align: center;
+    margin: 10px 0;
+ }
+
+ .donate-container input:focus{
+    outline: none;
  }
